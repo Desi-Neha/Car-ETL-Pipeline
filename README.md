@@ -42,3 +42,68 @@ It also generates **visualizations** to provide insights into car prices, fuel t
 ---
 
 ## 📂 Repository Structure
+car-sales-etl/
+│
+├─ data/                  # Raw CSV input files
+│   └─ *.csv
+│
+├─ plots/                 # Generated visualizations
+│   ├─ price_distribution.png
+│   ├─ fuel_type_analysis.png
+│   ├─ mileage_vs_price.png
+│   └─ another_plot.png
+│
+├─ etl_pipeline.py        # Main ETL pipeline code
+├─ cars_etl.db            # SQLite database (generated after ETL run)
+├─ cars_transformed.csv   # Transformed CSV output
+├─ requirements.txt       # Python dependencies
+└─ README.md              # Project documentation
+
+## 🚀 Usage / How to Run
+
+Clone the repository
+
+git clone https://github.com/your-username/car-sales-etl.git
+cd car-sales-etl
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Run the ETL pipeline
+
+python etl_pipeline.py
+
+
+This will:
+
+Extract all CSVs from the data/ folder
+
+Transform and clean the data
+
+Load it into cars_etl.db (SQLite) and cars_transformed.csv
+
+Generate visualizations in the plots/ folder
+
+Check outputs
+
+Transformed CSV: cars_transformed.csv
+
+SQLite database: cars_etl.db
+
+Plots: plots/ folder
+
+## 📊 Visualizations
+
+The pipeline automatically generates the following plots:
+
+Price Distribution – Understand the range of car prices.
+
+Fuel Type Analysis – Count and proportion of cars by fuel type.
+
+Mileage vs. Price – Scatter plot showing the relationship between mileage and price.
+
+Stored in the plots/ folder.
+
