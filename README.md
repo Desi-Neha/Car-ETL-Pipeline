@@ -56,7 +56,6 @@ car-sales-etl/
 ├─ etl_pipeline.py        # Main ETL pipeline code
 ├─ cars_etl.db            # SQLite database (generated after ETL run)
 ├─ cars_transformed.csv   # Transformed CSV output
-├─ requirements.txt       # Python dependencies
 └─ README.md              # Project documentation
 
 ---
@@ -67,11 +66,6 @@ car-sales-etl/
 
 git clone https://github.com/your-username/car-sales-etl.git
 cd car-sales-etl
-
-
-**Install dependencies**
-
-pip install -r requirements.txt
 
 
 **Run the ETL pipeline**
