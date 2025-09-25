@@ -51,7 +51,7 @@ car-sales-etl/
 │   ├─ price_distribution.png
 │   ├─ fuel_type_analysis.png
 │   ├─ mileage_vs_price.png
-│   └─ another_plot.png
+│   └─ age_vs_price.png
 │
 ├─ etl_pipeline.py        # Main ETL pipeline code
 ├─ cars_etl.db            # SQLite database (generated after ETL run)
@@ -59,35 +59,37 @@ car-sales-etl/
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Project documentation
 
+---
+
 ## 🚀 Usage / How to Run
 
-Clone the repository
+**Clone the repository**
 
 git clone https://github.com/your-username/car-sales-etl.git
 cd car-sales-etl
 
 
-Install dependencies
+**Install dependencies**
 
 pip install -r requirements.txt
 
 
-Run the ETL pipeline
+**Run the ETL pipeline**
 
 python etl_pipeline.py
 
 
-This will:
+**This will:**
 
-Extract all CSVs from the data/ folder
+-Extract all CSVs from the data/ folder
 
-Transform and clean the data
+-Transform and clean the data
 
-Load it into cars_etl.db (SQLite) and cars_transformed.csv
+-Load it into cars_etl.db (SQLite) and cars_transformed.csv
 
-Generate visualizations in the plots/ folder
+-Generate visualizations in the plots/ folder
 
-Check outputs
+**Check outputs**
 
 Transformed CSV: cars_transformed.csv
 
@@ -99,11 +101,13 @@ Plots: plots/ folder
 
 The pipeline automatically generates the following plots:
 
-Price Distribution – Understand the range of car prices.
+ 1. Price Distribution – Understand the range of car prices.
 
-Fuel Type Analysis – Count and proportion of cars by fuel type.
+ 2. Fuel Type Analysis – Count and proportion of cars by fuel type.
 
-Mileage vs. Price – Scatter plot showing the relationship between mileage and price.
+ 3. Mileage vs. Price – Scatter plot showing the relationship between mileage and price.
+
+ 4. Age vs. Price – Scatter plot showing how the car’s age affects its price.
 
 Stored in the plots/ folder.
 
