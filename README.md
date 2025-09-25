@@ -42,6 +42,7 @@ It also generates **visualizations** to provide insights into car prices, fuel t
 ---
 
 ## 📂 Repository Structure
+```text
 car-sales-etl/
 │
 ├─ data/                  # Raw CSV input files
@@ -57,7 +58,7 @@ car-sales-etl/
 ├─ cars_etl.db            # SQLite database (generated after ETL run)
 ├─ cars_transformed.csv   # Transformed CSV output
 └─ README.md              # Project documentation
-
+```
 ---
 
 ## 🚀 Usage / How to Run
