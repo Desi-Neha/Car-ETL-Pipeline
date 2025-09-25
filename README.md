@@ -64,15 +64,15 @@ car-sales-etl/
 ## 🚀 Usage / How to Run
 
 **Clone the repository**
-
+```text
 git clone https://github.com/your-username/car-sales-etl.git
 cd car-sales-etl
-
+```
 
 **Run the ETL pipeline**
-
+```text
 python etl_pipeline.py
-
+```
 
 **This will:**
 
